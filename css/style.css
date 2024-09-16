@@ -12,14 +12,13 @@ body{
 /* regole header */
 .page-header{
     height: 80px;
-    background-color: blue;
+    background-color: lightskyblue;
     background-image: url(../img/pattern.png);
-    background-size: contain;
+    background-size: 350px auto;
 }
 
 .logo{
     height: 50%;
-    
 }
 
 /* regole main */
