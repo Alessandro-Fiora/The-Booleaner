@@ -46,5 +46,19 @@ body{
 
 }
 
+/* regole foto articolo */
+.article-photos{
+    margin-left: 0;
+}
+
+figcaption{
+    font-size: x-small;
+}
+
+/* regole elenco puntato */
+
+.article-list{
+    padding-left: 20px;
+}
 
 
