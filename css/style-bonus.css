@@ -51,9 +51,6 @@ body{
 
 /* regole main */
 
-/* main{
-    margin: 5px;
-} */
 
 /* regole header main */
 .title{
@@ -110,10 +107,6 @@ figcaption{
 
 /* regole footer */
 
-footer{
-    margin: 5px;
-}
-
 .footer-title{
     font-size: medium;
     color: grey;
@@ -125,7 +118,6 @@ footer{
     width: 220px;
     height: 175px;
     background-size: cover;
-    background-repeat: no-repeat;
     margin-bottom: 15px;
 }
 
@@ -134,5 +126,11 @@ footer{
     width: 220px;
     height: 175px;
     background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.img-description{
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: medium;
 }
