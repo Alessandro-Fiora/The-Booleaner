@@ -12,11 +12,15 @@ body{
     margin: 0;
 }
 
+.highlight{
+    background-color: yellow;
+}
+
 
 /* regole header */
 .page-header{
     height: 80px;
-    background-color: lightskyblue;
+    background-color: cornflowerblue;
     background-image: url(../img/pattern.png);
     background-size: 350px auto;
 }
@@ -27,6 +31,10 @@ body{
 
 /* regole main */
 
+main{
+    margin: 5px;
+}
+
 /* regole header main */
 .title{
     margin-bottom: 0;
@@ -35,6 +43,7 @@ body{
 
 .subtitle{
     font-size: smaller;
+    font-weight: 400;
     margin: 0;
     color: grey;
 }
@@ -62,15 +71,48 @@ figcaption{
 }
 
 /* regole tabella */
-.lightblue{
-    background-color: lightblue;
+.art-table{
+    text-align: left;
 }
 
-.blue{
-    background-color: cyan;
+.colored-row{
+    background-color: #85E1EC;
+}
+
+.colored-h-row{
+    background-color: #05D0F0;
+    color: white;
 }
 
 .column-width{
     width: 50%;
 }
 
+/* regole footer */
+
+footer{
+    margin: 5px;
+}
+
+.footer-title{
+    font-size: medium;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.advice-1{
+    background-image: url(../img/monitor.jpg);
+    width: 220px;
+    height: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+.advice-2{
+    background-image: url(../img/graph.jpg);
+    width: 220px;
+    height: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
