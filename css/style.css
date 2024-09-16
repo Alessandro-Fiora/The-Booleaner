@@ -61,4 +61,16 @@ figcaption{
     padding-left: 20px;
 }
 
+/* regole tabella */
+.lightblue{
+    background-color: lightblue;
+}
+
+.blue{
+    background-color: cyan;
+}
+
+.column-width{
+    width: 50%;
+}
 
