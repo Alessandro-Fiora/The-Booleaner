@@ -23,10 +23,14 @@ body{
     background-color: cornflowerblue;
     background-image: url(../img/pattern.png);
     background-size: 350px auto;
+    position: relative;
 }
 
 .logo{
-    height: 50%;
+    height: 55%;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
 }
 
 /* regole main */
