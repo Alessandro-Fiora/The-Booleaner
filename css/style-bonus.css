@@ -114,6 +114,8 @@ figcaption{
     height: 175px;
     background-size: cover;
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .advice-2{
@@ -121,6 +123,8 @@ figcaption{
     width: 220px;
     height: 175px;
     background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-description{
