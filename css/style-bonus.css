@@ -1,0 +1,138 @@
+/* regole diverse da es normale */
+
+main{
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/* regole generali */
+*{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* 
+body{
+    margin: 0;
+} */
+
+.highlight{
+    background-color: yellow;
+}
+
+
+/* regole header */
+.page-header{
+    height: 80px;
+    background-color: cornflowerblue;
+    background-image: url(../img/pattern.png);
+    background-size: 350px auto;
+    position: relative;
+}
+
+.logo{
+    height: 55%;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+
+/* regole main */
+
+/* main{
+    margin: 5px;
+} */
+
+/* regole header main */
+.title{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.subtitle{
+    font-size: smaller;
+    font-weight: 400;
+    margin: 0;
+    color: grey;
+}
+
+.date{
+    font-size: x-small;
+    margin-top: 0;
+    color: grey;
+
+}
+
+/* regole foto articolo */
+.article-photos{
+    margin-left: 0;
+}
+
+figcaption{
+    font-size: x-small;
+}
+
+/* regole elenco puntato */
+
+.article-list{
+    padding-left: 20px;
+}
+
+/* regole tabella */
+.art-table{
+    text-align: left;
+}
+
+.colored-row{
+    background-color: #85E1EC;
+}
+
+.colored-h-row{
+    background-color: #05D0F0;
+    color: white;
+}
+
+.column-width{
+    width: 50%;
+}
+
+/* regole footer */
+
+footer{
+    margin: 5px;
+}
+
+.footer-title{
+    font-size: medium;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.advice-1{
+    background-image: url(../img/monitor.jpg);
+    width: 220px;
+    height: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+.advice-2{
+    background-image: url(../img/graph.jpg);
+    width: 220px;
+    height: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
